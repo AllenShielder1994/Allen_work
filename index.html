@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-nz" dir="ltr">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="normalize.css">
+   <link rel="stylesheet" type="text/css" href="styles.css">
+   <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
+
+</head>
+
+<body>
+
+   <!-- 1st part of the page -->
+   <div>
+      <div class="Rectangle-2"></div>
+      <img src='assets/main-banner.png' id="mainBanner" >
+
+      <label class="Need-a-dog-sitter"> Need a dog sitter? </label>
+
+      <label class="Find-a-trusted-sitte">
+         Find a trusted sitter in your community to look
+         after your dog when you’re busy or away.
+      </label>
+      <label class="Learn-More-Copy-3"> Learn More </label>
+
+      <button class="Rectangle"> </button>
+      <img src="assets/banner-wave.svg" class="Group-2">
+
+   </div>
+
+   <!-- 2nd part of the page -->
+   <div>
+      <label class="Our-Services"> Our Services </label>
+      <label class="Local-trusted-pet"> Local & trusted pet sitters will treat your fur baby like
+         </br> family.
+         You’ll have piece of mind with regular communication and premium insurance.</label>
+
+   </div>
+
+   <!-- 3rd part of the page -->
+   <div>
+
+      <div class="Mask" id="MaskBlock1">
+         <img src="assets/card-image-walking.png" alt="image" class="Unsplash">
+         <label class="MaskSbTtl">Dog Walking</label>
+         <div class="MaskTxt">
+            Got a bit more on this week, and need someone to exercise your dog?
+            Or need someone to regularly walk your dog as you’re no longer able to do it?
+            Look no futher than our service.
+         </div>
+
+         <div class="Learn-More"> Learn More </div>
+         <div class="More-Sybm">></div>
+      </div>
+
+      <div class="Mask" id="MaskBlock2">
+         <img src="assets/\/card-image-boarding.png" alt="image" class="Unsplash">
+         <label class="MaskSbTtl">Dog Boarding</label>
+         <div class="MaskTxt">
+            Instead of going to the kennels,
+            your dog gets to go to someones else,</br>
+            often with other pets and people for company.
+            Drop off and pick up</br>
+            options also available.
+         </div>
+
+         <div class="Learn-More"> Learn More </div>
+         <div class="More-Sybm">></div>
+      </div>
+
+      <div class="Mask" id="MaskBlock3">
+         <img src="assets/card-image-sitting.png" alt="image" class="Unsplash">
+         <label class="MaskSbTtl">Dog Sitting</label>
+         <div class="MaskTxt">
+            Your dog gets the comfort and convenience of staying in their own home,
+            as the sitter comes to yours!
+            There is the added bonus of your home being looked after.
+         </div>
+
+         <div class="Learn-More"> Learn More </div>
+         <div class="More-Sybm">></div>
+      </div>
+
+   </div>
+
+   <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+   <script type="text/javascript" src="js/data.js"></script>
+   <script type="text/javascript" src="js/index.js"></script>
+
+   <script>
+
+      var pageStyle = deviceType();
+
+      switch (pageStyle) {
+         case 'Phone':
+            // document.body.style.zoom = 2;
+            pageType(mobileMode);
+            console.log('Page Mode is mobile');
+            break;
+         case 'PC': pageType(desktopMode); console.log('Page Mode is desktop'); break;
+         case 'Tablet':
+            if (screen.width > screen.height) {
+               pageType(tabletWMode);
+               console.log('Page Mode is teblet wide');
+            }
+            else {
+               pageType(tabletTMode);
+               console.log('Page Mode is tablet tall');
+            }
+            break;
+      }
+
+      $(window).resize(function () { location.reload(); });
+
+   </script>
+
+</body>
+
+</html>
