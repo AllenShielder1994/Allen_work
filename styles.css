@@ -1,0 +1,145 @@
+.Rectangle {
+    position: absolute;
+    z-index: 8;
+    border-style: none;
+    background-color: #de6c17;
+ }
+
+ .Rectangle-2 {
+    position: absolute;
+    z-index: 4;
+    background-image: linear-gradient(to left,rgba(255, 255, 255, 0), rgba(0,0,0,0.35));
+ }
+
+ .Need-a-dog-sitter {
+
+    position: absolute;
+    z-index: 8;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+
+ }
+
+ .Find-a-trusted-sitte {
+    position: absolute;
+    z-index: 8;
+    font-family: Quicksand;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    color: #ffffff;
+ }
+
+ .Learn-More-Copy-3 {
+    position: absolute;
+    z-index: 10;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+ }
+
+ .Group-2 {
+    position: absolute;
+    z-index: 6;
+    object-fit: cover;
+
+
+ }
+
+ .Our-Services {
+    position: absolute;
+    z-index: 2;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #36413c;
+ }
+
+
+ .Local-trusted-pet {
+    position: absolute;
+    z-index: 2;
+    font-family: Quicksand;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align:center;
+    color: #5e6e66;
+ }
+
+ .Mask {
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.18);
+    background-color: #ffffff;
+ }
+
+
+ .Unsplash {
+    object-fit: fill;
+ }
+
+ .MaskSbTtl {
+    z-index: 4;
+    position: relative;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #36413c;
+
+ }
+
+ .MaskTxt {
+    position: relative;
+    z-index: 4;
+    font-family: Quicksand;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: #5e6e66;
+ }
+
+ .Learn-More {
+    position: relative;
+    z-index: 4;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #de6c17;
+ }
+
+ .More-Sybm {
+    position: relative;
+    z-index: 4;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #de6c17;
+    
+ }
